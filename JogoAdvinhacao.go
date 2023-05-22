@@ -23,7 +23,6 @@ func main() {
 		numeroAleatorio := rand.Intn(100) + 1
 		for resposta != numeroAleatorio {
 			contador++
-			fmt.Println(numeroAleatorio)
 			fmt.Println(contador, "º tentativa")
 			fmt.Println("Digite um numero aleatorio entre 1 e 100: ")
 			fmt.Scan(&resposta)
